@@ -13,10 +13,10 @@ public class MyConnect {
 	String db_pass;
 	public MyConnect() {
 	servername = "127.0.0.1";
-	port = "3307";
+	port = "3306";
 	db_name = "shop";
-	db_user="root";
-	db_pass="";
+	db_user="hoangvanvietanh";
+	db_pass="VietAnh123";
 	}
 	public MyConnect(String servername, String port, String db_name, String db_user, String
 	db_pass) {
