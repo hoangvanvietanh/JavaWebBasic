@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+.main {
+	width: 667px;
+	height: 600px;
+	background-color: blue;
+	float: left;
+	margin: 6px;
+}
+
+.mainn {
+	width: 627px;
+	height: 600px;
+	background-color: blue;
+	float: right;
+	margin: 6px;
+}
+
+#column1 {
+	padding-top: 8px;
+	width: 250px;
+	height: 250px;
+	background-color: #888a85;
+	float: left;
+	margin: 8px;
+	text-align: center;
+}
+
+td.c {
+	text-align: left;
+}
+
+td.d {
+	text-align: right;
+}
+
+#relative {
+	width: 50%;
+	height: 50%;
+	background-color: white;
+	float: right;
+	margin: 6px;
+	text-align: center;
+	text-align: justify;
+}
+
+.box {
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	background-image: url("phone4.png");;
+	top: 50px;
+	right: 40%;
+}
+
+.boxx {
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	top: 50px;
+	right: 40%;
+	float: right;
+}
+
+.setting {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 153px;
+}
+
+.contacts {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 204px;
+}
+
+.call {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 101px;
+}
+
+.messages {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 256px;
+}
+
+#myDIV {
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	background-color: lightblue;
+	margin-top: 20px;
+}
+
+#contrainer {
+	width: 700px;
+	height: 600px;
+	background-color: blue;
+	border: 1px red solid;
+	float: left;
+	margin: 6px;
+}
+
+#leftcontainer {
+	width: 90px;
+	height: 100px;
+	background-color: red;
+	border: 1px red solid;
+	float: left;
+	margin: 6px;
+}
+
+#maincontainer {
+	width: 290px;
+	height: 100px;
+	background-color: green;
+	border: 1px red solid;
+	float: left;
+	margin-top: 6px;
+}
+
+#rightcontrainer {
+	width: 90px;
+	height: 100px;
+	background-color: yellow;
+	border: 1px red solid;
+	float: left;
+	margin: 6px;
+}
+
+#main {
+	width: 700px;
+	height: 600px;
+	background-color: blue;
+	border: 1px red solid;
+	float: right;
+	margin: 6px;
+}

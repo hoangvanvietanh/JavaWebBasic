@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>userServlet</servlet-name>
+  	<display-name>userServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.green.example.controller.userServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>phoneController</servlet-name>
+  	<display-name>phoneController</display-name>
+  	<description></description>
+  	<servlet-class>com.green.example.controller.phoneController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>historyCallController</servlet-name>
+  	<display-name>historyCallController</display-name>
+  	<description></description>
+  	<servlet-class>com.green.example.controller.historyCallController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>userController</servlet-name>
+  	<display-name>userController</display-name>
+  	<description></description>
+  	<servlet-class>com.green.example.controller.ContactController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>phoneServlet</servlet-name>
+  	<display-name>phoneServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.green.example.controller.PhoneServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeController</servlet-name>
+  	<display-name>HomeController</display-name>
+  	<description></description>
+  	<servlet-class>com.green.example.controller.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>userServlet</servlet-name>
+  	<url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>phoneController</servlet-name>
+  	<url-pattern>/phoneController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>historyCallController</servlet-name>
+  	<url-pattern>/historyCallController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>userController</servlet-name>
+  	<url-pattern>/userController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>phoneServlet</servlet-name>
+  	<url-pattern>/phoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeController</servlet-name>
+  	<url-pattern>/HomeController</url-pattern>
+  </servlet-mapping>
+</web-app>

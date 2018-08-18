@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+#contrainer {
+	width: 230px;
+	height: 600px;
+	float: left;
+}
+
+#main {
+	width: 1084px;
+	height: 2000px;
+	float: right;
+}
+
+.box {
+	position: absolute;
+	width: 321px;
+	height: 500px;
+	background-image: url(phone4.png);
+	top: 50px;
+	right: 81%;
+}
+
+#column {
+	padding-top: 5px;
+	width: 269px;
+	height: 271px;
+	background-color: #E6E1E1;
+	float: left;
+	margin: 1px;
+	text-align: center;
+}
+
+td.c {
+	text-align: left;
+}
+
+td.d {
+	text-align: right;
+}
+
+.setting {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 153px;
+}
+
+.contacts {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 204px;
+}
+
+.call {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 101px;
+}
+
+.messages {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 399px;
+	right: 269px;
+	left: 256px;
+}
